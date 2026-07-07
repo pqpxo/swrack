@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="swrack_logo.png" alt="SWrack" width="248" />
+  <img src="swracklogo.png" alt="SWrack" width="248" />
 </p>
 
 # SWrack
