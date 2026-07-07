@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="swrack_logo.png" alt="SWrack" width="248" />
+</p>
+
 # SWrack
 
 **SWrack** is a self-hosted visual rack and data-cabinet documentation tool.
