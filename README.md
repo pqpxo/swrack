@@ -5,6 +5,8 @@ It provides interactive rack elevations, custom equipment templates, image and
 PNG icon uploads, live ping checks, category highlighting, rack blank panels,
 0.5U placements, and persistent Docker storage.
 
+<details> <summary><strong>Screenshot</strong></summary> <br> <p align="center"> <a href="swrack_screenshot.png"> <img src="swrack_screenshot.png" alt="Screenshot" width="100%"> </a> </p> </details>
+
 ## Source snapshot
 
 This repository snapshot represents **SWrack v26**, including every completed
