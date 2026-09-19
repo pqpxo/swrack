@@ -796,7 +796,7 @@
 
   function optimisedAssetUrl(assetId: unknown): string | null {
     const identifier = valueAsText(assetId).trim();
-    return identifier ? `/assets/optimised/${identifier}.webp` : null;
+    return identifier ? `${import.meta.env.BASE_URL.replace(/\/+$/, '')}/assets/optimised/${identifier}.webp` : null;
   }
 
   function assetUrl(instance: EquipmentInstance): string | null {
@@ -1131,7 +1131,7 @@
   <header class="topbar">
     <div class="brand-lockup">
       <div class="brand-mark">
-        <img src="/swrack-logo.png?v=26" alt="SWrack logo" />
+        <img src="{import.meta.env.BASE_URL}swrack-logo.png?v=26" alt="SWrack logo" />
       </div>
       <div>
         <h1>SWrack</h1>

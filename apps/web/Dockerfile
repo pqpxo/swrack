@@ -7,6 +7,9 @@ RUN npm ci
 COPY tsconfig.json vite.config.ts svelte.config.js index.html ./
 COPY src ./src
 COPY static ./static
+# Mount path baked into the bundle's asset and API URLs.
+ARG BASE_PATH=/
+ENV BASE_PATH=$BASE_PATH
 RUN npm run build
 
 FROM nginx:1.27-alpine AS runtime

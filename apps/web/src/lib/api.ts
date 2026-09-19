@@ -1,6 +1,9 @@
 // version 20
 import type { CabinetDetail, CabinetSummary, EquipmentInstance, EquipmentTemplate, ImageAsset, PingResult } from './types';
 
+// Vite's BASE_URL is the mount path, with a trailing slash ('/' when standalone).
+const BASE = import.meta.env.BASE_URL.replace(/\/+$/, '');
+
 async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   const headers = new Headers(options.headers);
 
@@ -10,7 +13,7 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
     headers.set('Content-Type', 'application/json');
   }
 
-  const response = await fetch(path, {
+  const response = await fetch(BASE + path, {
     ...options,
     headers
   });

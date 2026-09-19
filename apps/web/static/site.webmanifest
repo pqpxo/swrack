@@ -4,7 +4,7 @@
   "description": "Visual rack and data cabinet documentation.",
   "icons": [
     {
-      "src": "/favicon.png",
+      "src": "favicon.png",
       "sizes": "any",
       "type": "image/png"
     }
