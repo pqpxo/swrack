@@ -1122,7 +1122,7 @@
 </script>
 
 <svelte:head>
-  <title>SWrack</title>
+  <title>SWRack</title>
 </svelte:head>
 
 <svelte:window onpointerdown={handleGlobalPointerDown} />
@@ -1131,10 +1131,10 @@
   <header class="topbar">
     <div class="brand-lockup">
       <div class="brand-mark">
-        <img src="{import.meta.env.BASE_URL}swrack-logo.png?v=26" alt="SWrack logo" />
+        <img src="{import.meta.env.BASE_URL}swrack-logo.png?v=26" alt="SWRack logo" />
       </div>
       <div>
-        <h1>SWrack</h1>
+        <h1>SWRack</h1>
         <p>Visual rack documentation</p>
       </div>
     </div>

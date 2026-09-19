@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="swracklogo.png" alt="SWrack" width="248" />
+  <img src="swracklogo.png" alt="SWRack" width="248" />
 </p>
 
-# SWrack
+# SWRack
 
-**SWrack** is a self-hosted visual rack and data-cabinet documentation tool.
+**SWRack** is a self-hosted visual rack and data-cabinet documentation tool.
 It provides interactive rack elevations, custom equipment templates, image and
 PNG icon uploads, live ping checks, category highlighting, rack blank panels,
 0.5U placements, and persistent Docker storage.
@@ -13,7 +13,7 @@ PNG icon uploads, live ping checks, category highlighting, rack blank panels,
 
 ## Source snapshot
 
-This repository snapshot represents **SWrack v26**, including every completed
+This repository snapshot represents **SWRack v26**, including every completed
 application upgrade from the original Cabinet Canvas project.
 
 Included source:
@@ -22,7 +22,7 @@ Included source:
 - Fastify / Prisma API
 - Docker Compose deployment
 - PostgreSQL schema and seed data
-- SWrack logo, favicon, Apple touch icon, and web manifest
+- SWRack logo, favicon, Apple touch icon, and web manifest
 - Automatic ping monitoring and status LEDs
 - Category highlights and custom category creation
 - 0.5U custom equipment support
