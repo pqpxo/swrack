@@ -1131,7 +1131,7 @@
   <header class="topbar">
     <div class="brand-lockup">
       <div class="brand-mark">
-        <img src="{import.meta.env.BASE_URL}swrack-logo.png?v=26" alt="SWRack logo" />
+        <img src="{import.meta.env.BASE_URL}swrack-logo.png?v=27" alt="SWRack logo" />
       </div>
       <div>
         <h1>SWRack</h1>
