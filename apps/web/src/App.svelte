@@ -1129,7 +1129,7 @@
 
 <div class="app-shell">
   <header class="topbar">
-    <div class="brand-lockup">
+    <div class="brand-lockup" data-sw-chrome>
       <div class="brand-mark">
         <img src="{import.meta.env.BASE_URL}swrack-logo.png?v=27" alt="SWRack logo" />
       </div>
